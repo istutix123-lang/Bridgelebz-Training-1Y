@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class SmallestOf3Numbers{
+	public static void main(String...args){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter a number1 = " );
+			int a=sc.nextInt();
+		System.out.print("enter a number2 = " );
+			int b=sc.nextInt();
+		System.out.print("enter a number3 = " );
+			int c=sc.nextInt();
+			if((a<=b)&&(a<=c)){
+					System.out.print("number1 is smallest " );
+			} else if ((b<=a)&&(b<=c)){
+						System.out.print("number2 is smallest " );
+
+	}  else if  ((c<=a)&&(c<=b)){
+						System.out.print(" number3 is smallest " );
+	
+	
+	}
+}
+}
+
