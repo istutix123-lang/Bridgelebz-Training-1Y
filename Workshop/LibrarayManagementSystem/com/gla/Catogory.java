@@ -1,0 +1,5 @@
+package com.gla;
+
+public enum Catogory {
+    HISTORY,ECONOMY,LITRATURE,SCIENCE,BIOLOGY,BIOGRAPHY,MATHEMATICS
+}
